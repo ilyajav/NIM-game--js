@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NIM</title>
+    <link rel="stylesheet" href="../CSS/NIM.css">
+</head>
+<body>
+<div id="game">
+<p>
+<h1>NIM Game</h1>
+<p id ="rules">Rules: The goal of the game is to reach the maximum number. The player who added the last number to the maximum amount is considered the winner. 
+    The game has 3 modifications: a machine and a person, a person and a person, and a hard mode, in which it is difficult to overwhelm the machine</p>
+<div id = "startBTS">
+    <button id ="BTMH">Machine & Human</button>
+    <button id ="BTHH">Human & Human</button>
+    <button id ="BTMOD">Hard mod</button>
+</div>
+<div id ="ff">
+    <div id = "#border">
+<p id ="fN"><label>We are playing from 1 to max num (enter please):<br><br><input id = "startfield" type="number" min="1" placeholder="0"></label></p>
+    </div>
+<p id ="tN"><label>Add number from 1 to max (enter please):<br><br><input id = "addN" type="number" min = "1" placeholder="0"></label></p>
+    <p id = "alert1"></p>
+<p><button id = "bt">Start game</button></p>
+</div>
+<p><button id="bt1">Start game</button></p>
+<p><button id="bt2">Start game</button> </p>
+<div id ="gameBlock">
+<p id = "LS">Let's start</p>
+<p id = "whoTurn"></p>
+<p id = "mn"></p>
+<p id = "humanTurn"><label><button id = "btHT">Enter a number and click this: </button><input type="number" min = "0" id ="numberHuman"></label></p>
+<span id = "wrong"></span>
+<p><button id = "cont">Continue</button></p>
+</div>
+<div id="fieldHH">
+    <p id = "human1Turn"><label><button id = "btHH1">Enter a number and click this, Human 1: </button><input type="number" min = "0" id ="numberHuman1"></label></p>
+    <p id = "human2Turn"><label><button id = "btHH2">Enter a number and click this, Human 2: </button><input type="number" min = "0" id ="numberHuman2"></label></p>
+    <p id ="contHHSH"><button id="contHH">Continue</button></p>
+</div>
+<h2 id="sumoutput"></h2>
+<p id ="contMod"><button id = "btContMod">Continue</button></p>
+<span id="result"></span>
+<p><button id="restart">Start new game</button></p>
+</div>
+<script src="../JS/NIM.js"></script>
+</body>
+</html>

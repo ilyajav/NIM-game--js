@@ -1,0 +1,135 @@
+body{
+    background: url("../IMG/49d3d42c20e45dcb1ea86eaf2ecb1090.jpg") fixed;
+    background-size: cover;
+}
+@font-face {
+    font-family: myFantasy;
+    src: url("../Fonts/19844.otf");
+}
+#game{
+    font-size: 25px;
+    color: greenyellow;
+    text-shadow: -0   -4px 0   #000000,
+    0   -4px 0   #000000,
+    -0    4px 0   #000000,
+    0    4px 0   #000000,
+    -4px -0   0   #000000,
+    4px -0   0   #000000,
+    -4px  0   0   #000000,
+    4px  0   0   #000000,
+    -1px -4px 0   #000000,
+    1px -4px 0   #000000,
+    -1px  4px 0   #000000,
+    1px  4px 0   #000000,
+    -4px -1px 0   #000000,
+    4px -1px 0   #000000,
+    -4px  1px 0   #000000,
+    4px  1px 0   #000000,
+    -2px -4px 0   #000000,
+    2px -4px 0   #000000,
+    -2px  4px 0   #000000,
+    2px  4px 0   #000000,
+    -4px -2px 0   #000000,
+    4px -2px 0   #000000,
+    -4px  2px 0   #000000,
+    4px  2px 0   #000000,
+    -3px -4px 0   #000000,
+    3px -4px 0   #000000,
+    -3px  4px 0   #000000,
+    3px  4px 0   #000000,
+    -4px -3px 0   #000000,
+    4px -3px 0   #000000,
+    -4px  3px 0   #000000,
+    4px  3px 0   #000000,
+    -4px -4px 0   #000000,
+    4px -4px 0   #000000,
+    -4px  4px 0   #000000,
+    4px  4px 0   #000000,
+    -4px -4px 0   #000000,
+    4px -4px 0   #000000,
+    -4px  4px 0   #000000,
+    4px  4px 0   #000000;
+    font-family: myFantasy, serif;
+    text-align: center;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#LS{
+    display: none;
+
+}
+#humanTurn{
+    display: none;
+}
+#cont{
+    display: none;
+}
+#whoTurn{
+    color: red;
+}
+#alert1{
+    color: red;
+}
+#result{
+    color: green;
+}
+#wrong{
+    color: red;
+}
+#restart{
+    display: none;
+}
+#ff{
+    display: none;
+}
+#bt1{
+    display: none;
+}
+#fieldHH{
+    display: none;
+}
+#bt2{
+    display: none;
+}
+#contMod{
+    display: none;
+}
+#alert1{
+    color: #ff9696;
+}
+#mn {
+    color: greenyellow;
+}
+#whoTurn{
+    color: #ff9696;
+}
+#bt{
+   margin-left: 310px;
+}
+#bt1 {
+    margin-left: 310px;
+
+}
+#bt2{
+    margin-left: 310px;
+
+}
+button{
+    background: greenyellow;
+    border: 2px solid black;
+    color: black;
+}
+#cont{
+    margin-left: 310px;
+}
+#restart {
+    margin-left: 290px;
+}
+#result{
+    color: #7373ff;
+}
+#wrong{
+    color: #ff9696;
+}
